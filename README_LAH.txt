@@ -21,5 +21,5 @@ Here are the steps I took to integrate the nivo/boxplot into streamlit-elements 
 
 12b) e.g. cp ~/github/streamlit-elements/streamlit_elements/ ~/.local/share/virtualenvs/streamlit-gallery-lypl7mn3/lib/python3.10/site-packages/streamlit_elements -r
 
-10) to test it, I used the code from streamlit-gallery (ToDo)
+13) to test it, I used the code from streamlit-gallery and it works perfectly.
 
