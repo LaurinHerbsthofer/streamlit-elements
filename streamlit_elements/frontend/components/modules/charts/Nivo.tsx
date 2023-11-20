@@ -5,6 +5,7 @@ const elements: ElementsRecord = {
   AreaBump: dynamic(() => import("@nivo/bump").then(m => m.ResponsiveAreaBump), { loading: ElementsLoading, ssr: false }),
   Bar: dynamic(() => import("@nivo/bar").then(m => m.ResponsiveBar), { loading: ElementsLoading, ssr: false }),
   BarCanvas: dynamic(() => import("@nivo/bar").then(m => m.ResponsiveBarCanvas), { loading: ElementsLoading, ssr: false }),
+  BoxPlot: dynamic(() => import("@nivo/boxplot").then(m => m.ResponsiveBoxPlot), { loading: ElementsLoading, ssr: false }),
   Bullet: dynamic(() => import("@nivo/bullet").then(m => m.ResponsiveBullet), { loading: ElementsLoading, ssr: false }),
   Bump: dynamic(() => import("@nivo/bump").then(m => m.ResponsiveBump), { loading: ElementsLoading, ssr: false }),
   Calendar: dynamic(() => import("@nivo/calendar").then(m => m.ResponsiveCalendar), { loading: ElementsLoading, ssr: false }),
