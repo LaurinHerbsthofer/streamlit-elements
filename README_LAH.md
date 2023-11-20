@@ -1,3 +1,7 @@
+# How to modify streamlit-elements and build from source
+
+Short description in this github issue: https://github.com/okld/streamlit-elements/issues/31
+
 Here are the steps I took to integrate the nivo/boxplot into streamlit-elements on a linux machine.
 
 1) I used grep -rni "ResponsiveBar" and grep -rni "ResponsiveBoxplot" to find that the boxplot was not included while the bar plot was.
@@ -23,3 +27,7 @@ Here are the steps I took to integrate the nivo/boxplot into streamlit-elements 
 
 13) to test it, I used the code from streamlit-gallery and it works perfectly.
 
+
+# Todo
+
+Either submit this change as a pull request to streamlit-elements repo, or figure out how to best install our changes in a new project (everything needs to be able to be dockerized in the end).
